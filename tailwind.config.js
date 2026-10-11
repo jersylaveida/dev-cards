@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+export default { content: ['./index.html','./src/**/*.{ts,tsx}'], theme: { extend: { fontFamily: { sans: ['Syne','sans-serif'], mono: ['IBM Plex Mono','monospace'] }, colors: { ink:'#0f0f10', panel:'#1a1a1c', panel2:'#222226', line:'rgba(255,255,255,.09)', lime:'#c8f074', sky:'#74c8f0', coral:'#f09474' }, boxShadow: { glow:'0 16px 60px rgba(0,0,0,.35)' } } }, plugins: [] }
